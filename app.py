@@ -25,7 +25,6 @@ def get_bot_response():
     print("推荐您到 "+ recommend_keshi + "就诊")
 
     payload = []
-    content = {}
     with open("newdata.csv", "r", encoding="utf-8") as csvFile:
         reader = csv.reader(csvFile)
         for info in reader:
@@ -37,7 +36,7 @@ def get_bot_response():
                     content = {'name': name, 'position': title, 'hospital': hospital,
                                'department': keshi, 'good_at': introduction}
                     payload.append(content)
-                    content = {}
+
     for info in payload:
         print(info);
 
