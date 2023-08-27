@@ -36,7 +36,8 @@
   </p>
 </div>
 
-
+> 📚 **Welcomes to provide your valuable comments or suggestions by 'Issues' or my [contact information](#contact)**    
+> ✨ 欢迎通过”issues“或我的[联系方式](#contact)，为我提供宝贵意见  
 
 <!-- TABLE OF CONTENTS -->
 <details>
@@ -44,21 +45,16 @@
   <ol>
     <li>
       <a href="#about-the-project">About The Project</a>
-      <ul>
-        <li><a href="#built-with">Built With</a></li>
-      </ul>
     </li>
     <li>
       <a href="#getting-started">Getting Started</a>
       <ul>
-        <li><a href="#prerequisites">Prerequisites</a></li>
         <li><a href="#installation">Installation</a></li>
+        <li><a href="#crawler">Crawler</a></li>
+        <li><a href="#fasttext">Fasttext</a></li>
+        <li><a href="#flask-interface">Flask interface</a></li>
       </ul>
     </li>
-    <li><a href="#usage">Usage</a></li>
-    <li><a href="#roadmap">Roadmap</a></li>
-    <li><a href="#contributing">Contributing</a></li>
-    <li><a href="#license">License</a></li>
     <li><a href="#contact">Contact</a></li>
     <li><a href="#acknowledgments">Acknowledgments</a></li>
   </ol>
@@ -97,7 +93,7 @@ python version > 3.6
    python data.py
    ```
 
-### Fasttest
+### Fasttext
 train using fasttest, which will get model.bin file storing model parameter
    ```sh
    cd model
